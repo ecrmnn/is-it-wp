@@ -1,0 +1,31 @@
+{
+  "name": "is-it-wp",
+  "version": "1.0.0",
+  "description": "Check if a website is built on Wordpress",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ecrmnn/is-it-wp"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Daniel Eckermann",
+    "email": "danieleckermann@gmail.com",
+    "url": "http://danieleckermann.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ecrmnn/is-it-wp/issues"
+  },
+  "homepage": "https://github.com/ecrmnn/is-it-wp",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "axios": "^0.15.2"
+  }
+}
